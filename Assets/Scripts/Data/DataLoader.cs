@@ -24,6 +24,8 @@ public class ConfigurationData
 
     public AnimalData[] animals;
     public LevelData[] levels;
+    public StoryData[] stories;
+    public GameSequenceData[] gamesequence;
 }
 
 [Serializable]
@@ -50,4 +52,26 @@ public class LevelTimelineData
     public int step;
     public int animal;
     public int quantity;
+}
+
+[Serializable]
+public class StoryData
+{
+    public int id;
+    public StoryTimelineData[] timeline;
+}
+
+[Serializable]
+public class StoryTimelineData
+{
+    public int step;
+    public string actor;
+}
+
+[Serializable]
+public class GameSequenceData
+{
+    public int id;
+    public string type;
+    public int typeid;
 }

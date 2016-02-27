@@ -4,6 +4,10 @@ using System.Collections;
 
 class GameSceneManager : MonoBehaviour, IController
 {
+    public GameSequenceData currentSequence;
+
+    public const string CurrentSequenceToken = "CurrentSequence";
+
     void Awake()
     {
         Resolver.Instance.GetController<EventHandler>().Register(Events.GameStateTransition.TransitionTo, OnTransitionToState);
@@ -25,18 +29,11 @@ class GameSceneManager : MonoBehaviour, IController
                 SceneManager.LoadScene("Title");
                 break;
             case GameStateEngine.States.Playing:
-                switch ((GameModeConfiguration.GameMode)Resolver.Instance.GetController<StatsManager>().GetSettingValue(GlobalStats.GameMode))
-                {
-                    case GameModeConfiguration.GameMode.OneSloth:
-                        SceneManager.LoadScene("OneSloth");
-                        break;
-                    case GameModeConfiguration.GameMode.TwoSloths:
-                        SceneManager.LoadScene("TwoSloth");
-                        break;
-                }
+                LoadCurrentSequence();
+                LoadSceneFromCurrentSequence();
                 break;
             case GameStateEngine.States.GameOver:
-                SceneManager.LoadScene("MainMenu");
+                SceneManager.LoadScene("Title");
                 break;
             case GameStateEngine.States.Credits:
                 SceneManager.LoadScene("Credits");
@@ -59,5 +56,41 @@ class GameSceneManager : MonoBehaviour, IController
 
     #endregion IController
 
+    private void LoadCurrentSequence()
+    {
+        int currentSequenceId = PlayerPrefs.GetInt(CurrentSequenceToken, 1);
 
+        ConfigurationData configData = (ConfigurationData)Resolver.Instance.GetController<ConfigurationManager>().GetSettingValue(ConfigurationData.ConfigurationToken);
+
+        foreach (GameSequenceData sequenceData in configData.gamesequence)
+        {
+            if (sequenceData.id == currentSequenceId)
+            {
+                currentSequence = sequenceData;
+                break;
+            }
+        }
+    }
+
+    private void SaveCurrentSequence()
+    {
+        PlayerPrefs.SetInt(CurrentSequenceToken, currentSequence.id);
+        PlayerPrefs.Save();
+    }
+
+    void LoadSceneFromCurrentSequence()
+    {
+        switch (currentSequence.type)
+        {
+            case "stories":
+                SceneManager.LoadScene("Story");
+                break;
+            case "levels":
+                SceneManager.LoadScene("Game");
+                break;
+            default:
+                Debug.Log("Invalid Sequence Type in data");
+                break;
+        }
+    }
 }

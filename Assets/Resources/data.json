@@ -1,46 +1,74 @@
 {
-  "animals" : [
+  "animals": [
     {
-    "id" : 1,
-    "name" : "Bunny",
-    "speed" : 4,
-    "health" : 1
+      "id": 1,
+      "name": "Bunny",
+      "speed": 4,
+      "health": 1
     },
     {
-    "id" : 2,
-    "name" : "Cow",
-    "speed" : 2,
-    "health" : 2
+      "id": 2,
+      "name": "Cow",
+      "speed": 2,
+      "health": 2
     },
     {
-    "id" : 3,
-    "name" : "Sloth",
-    "speed" : 1,
-    "health" : 4
+      "id": 3,
+      "name": "Sloth",
+      "speed": 1,
+      "health": 4
     }
   ],
-  "levels" : [
+  "levels": [
     {
-      "id" : 1,
-      "terrain" : "grass",
-      "speedfactor" : 1,
-      "timeline" : [
+      "id": 1,
+      "terrain": "grass",
+      "speedfactor": 1,
+      "timeline": [
         {
-          "step" : 1,
-          "animal" : 1,
-          "quantity" : 1
+          "step": 1,
+          "animal": 1,
+          "quantity": 1
         },
         {
-          "step" : 10,
-          "animal" : 2,
-          "quantity" : 1
+          "step": 10,
+          "animal": 2,
+          "quantity": 1
         },
         {
-          "step" : 20,
-          "animal" : 3,
-          "quantity" : 1
+          "step": 20,
+          "animal": 3,
+          "quantity": 1
         }
-        ]
+      ]
     }
-    ]
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "timeline": [
+        {
+          "step": 1,
+          "actor": "Bunny"
+        }
+      ]
+    }
+  ],
+  "gamesequence": [
+    {
+      "id": 1,
+      "type": "levels",
+      "typeid": 1
+    },
+    {
+      "id": 2,
+      "type": "stories",
+      "typeid": 1
+    },
+    {
+      "id": 3,
+      "type": "levels",
+      "typeid":  2
+    }
+  ]
 }

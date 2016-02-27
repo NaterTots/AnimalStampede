@@ -3,11 +3,9 @@ using System.Collections;
 
 public class GlobalStats : MonoBehaviour, IController
 {
-    public GameModeConfiguration.GameMode gameMode;
     public GameStats gameStats;
 
     public static string GameStats = "GlobalStats.GameStats";
-    public static string GameMode = "GlobalStats.GameMode";
 
     private StatsManager statsManager;
     private EventHandler eventHandler;
@@ -17,7 +15,6 @@ public class GlobalStats : MonoBehaviour, IController
         statsManager = Resolver.Instance.GetController<StatsManager>();
 
         statsManager.AddSetting<GameStats>(GameStats, gameStats);
-        statsManager.AddSetting<GameModeConfiguration.GameMode>(GameMode, gameMode);
 
         eventHandler = Resolver.Instance.GetController<EventHandler>();
         eventHandler.Register(Events.Game.ScoredPoints, ScoredPoints);
