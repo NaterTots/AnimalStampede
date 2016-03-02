@@ -32,11 +32,16 @@ public class InputController : IController
         None
     };
 
-    public ClickRegion GetRegionClicked()
+    public ClickRegion GetRegionClicked(out Vector3 mousePosition)
     {
+        mousePosition = Vector3.zero;
+
 #if UNITY_STANDALONE || UNITY_WEBPLAYER
         if (Input.GetMouseButtonDown(0))
         {
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePosition.z = 0.0f;
+
             if (Input.mousePosition.x <= Screen.width / 2)
             {
                 return ClickRegion.Left;

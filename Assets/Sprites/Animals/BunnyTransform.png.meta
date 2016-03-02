@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 8463c06ee8d8ad341bde8186802bd584
+timeCreated: 1456958475
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BunnyTransform_0
+    21300002: BunnyTransform_1
+    21300004: BunnyTransform_2
+    21300006: BunnyTransform_3
+    21300008: BunnyTransform_4
+    21300010: BunnyTransform_5
+    21300012: BunnyTransform_6
+    21300014: BunnyTransform_7
+    21300016: BunnyTransform_8
+    21300018: BunnyTransform_9
+    21300020: BunnyTransform_10
+    21300022: BunnyTransform_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 250
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BunnyTransform_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -149, y: 91}
+        - {x: -149, y: -72}
+        - {x: -123, y: -138}
+        - {x: 34, y: -138}
+        - {x: 34, y: 40}
+        - {x: 1, y: 91}
+    - name: BunnyTransform_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.333344, y: -80}
+        - {x: 31.333344, y: 131}
+        - {x: -136.66666, y: 131}
+        - {x: -136.66666, y: -90}
+        - {x: -127.66666, y: -123}
+        - {x: -60.666656, y: -132}
+        - {x: 10.3333435, y: -132}
+        - {x: 21.333344, y: -113}
+        - {x: 20.333344, y: -106}
+        - {x: 13.3333435, y: -101}
+    - name: BunnyTransform_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.333313, y: 130}
+        - {x: -31.333313, y: 101}
+        - {x: -39.333313, y: 91}
+        - {x: -62.333313, y: 131}
+        - {x: -85.33331, y: 160}
+        - {x: -104.33331, y: 160}
+        - {x: -114.33331, y: 154}
+        - {x: -114.33331, y: -83}
+        - {x: -75.33331, y: -122}
+        - {x: 29.666687, y: -122}
+        - {x: 39.666687, y: -53}
+        - {x: 39.666687, y: 153}
+        - {x: 17.666687, y: 144}
+    - name: BunnyTransform_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 167}
+        - {x: 24, y: 171}
+        - {x: -82, y: 171}
+        - {x: -89, y: 168}
+        - {x: -89, y: -108}
+        - {x: 14, y: -108}
+        - {x: 20, y: -90}
+        - {x: 83, y: 23}
+        - {x: 86, y: 36}
+    - name: BunnyTransform_4
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.666626, y: 131}
+        - {x: -59.666626, y: -80}
+        - {x: -49.666626, y: -99}
+        - {x: 37.333374, y: -99}
+        - {x: 134.33337, y: -37}
+        - {x: 134.33337, y: 131}
+    - name: BunnyTransform_5
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.66675, y: 67}
+        - {x: -6.333252, y: 60}
+        - {x: -15.333252, y: 28}
+        - {x: -1.333252, y: 13}
+        - {x: 6.666748, y: -2}
+        - {x: 4.666748, y: 1}
+        - {x: -8.333252, y: 6}
+        - {x: -38.333252, y: -6}
+        - {x: -38.333252, y: -105}
+        - {x: 90.66675, y: -105}
+        - {x: 137.66675, y: -79}
+        - {x: 137.66675, y: 65}
+        - {x: 133.66675, y: 67}
+    - name: BunnyTransform_6
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 21}
+        - {x: -36, y: 20}
+        - {x: -36, y: -84}
+        - {x: 21, y: -141}
+        - {x: 122, y: -141}
+        - {x: 139, y: -139}
+        - {x: 140, y: -136}
+        - {x: 140, y: 21}
+    - name: BunnyTransform_7
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.333496, y: -29}
+        - {x: 66.333496, y: -44}
+        - {x: 62.333496, y: -35}
+        - {x: 45.333496, y: -23}
+        - {x: 6.333496, y: 0}
+        - {x: -3.666504, y: 4}
+        - {x: -23.666504, y: 4}
+        - {x: -33.666504, y: -31}
+        - {x: -33.666504, y: -158}
+        - {x: -25.666504, y: -167}
+        - {x: 62.333496, y: -167}
+        - {x: 99.333496, y: -152}
+        - {x: 122.333496, y: -59}
+        - {x: 122.333496, y: -27}
+        - {x: 115.333496, y: -25}
+    - name: BunnyTransform_8
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.66675, y: -98}
+        - {x: 67.66675, y: -12}
+        - {x: 13.666748, y: 6}
+        - {x: -92.33325, y: 6}
+        - {x: -92.33325, y: -163}
+        - {x: -89.33325, y: -165}
+        - {x: 60.666748, y: -165}
+        - {x: 67.66675, y: -160}
+        - {x: 67.66675, y: -156}
+        - {x: 52.666748, y: -133}
+    - name: BunnyTransform_9
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 44}
+        - {x: -149, y: 44}
+        - {x: -149, y: -108}
+        - {x: -54, y: -177}
+        - {x: 1, y: -177}
+        - {x: 46, y: -124}
+        - {x: 48, y: -122}
+        - {x: 48, y: -26}
+        - {x: 9, y: 36}
+    - name: BunnyTransform_10
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.6665, y: 93}
+        - {x: -170.6665, y: 1}
+        - {x: -127.666504, y: -146}
+        - {x: 20.333496, y: -146}
+        - {x: 33.333496, y: -111}
+        - {x: 33.333496, y: -33}
+        - {x: -14.666504, y: 93}
+    - name: BunnyTransform_11
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 0
+        width: 560
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.33325, y: 65}
+        - {x: -136.33325, y: 93}
+        - {x: -170.33325, y: 93}
+        - {x: -170.33325, y: -21}
+        - {x: -123.33325, y: -146}
+        - {x: 34.666748, y: -146}
+        - {x: 34.666748, y: 93}
+        - {x: -42.333252, y: 93}
+        - {x: -47.333252, y: 89}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

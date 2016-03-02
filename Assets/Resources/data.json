@@ -4,19 +4,34 @@
       "id": 1,
       "name": "Bunny",
       "speed": 4,
-      "health": 1
+      "health": 1,
+      "behavior": "bunny",
+      "hit_animation": "bunny_hit",
+      "transform_animation": "bunny_transform",
+      "run_animation": "bunny_run",
+      "happy_animation":  "bunny_happy"
     },
     {
       "id": 2,
       "name": "Cow",
       "speed": 2,
-      "health": 2
+      "health": 2,
+      "hit_animation": "cow_hit",
+      "transform_animation": "cow_transform",
+      "run_animation": "cow_run",
+      "happy_animation":  "cow_happy",
+      "behavior" :  "normal"
     },
     {
       "id": 3,
       "name": "Sloth",
       "speed": 1,
-      "health": 4
+      "health": 4,
+      "hit_animation": "sloth_hit",
+      "transform_animation": "sloth_transform",
+      "run_animation": "sloth_run",
+      "happy_animation":  "sloth_happy",
+      "behavior" :  "normal"
     }
   ],
   "levels": [
@@ -32,12 +47,12 @@
         },
         {
           "step": 10,
-          "animal": 2,
+          "animal": 1,
           "quantity": 1
         },
         {
           "step": 20,
-          "animal": 3,
+          "animal": 1,
           "quantity": 1
         }
       ]

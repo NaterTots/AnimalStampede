@@ -41,6 +41,11 @@ public class ConfigurationManager : IController
         return _settings[name].Value;
     }
 
+    public T GetSettingValue<T>(string name)
+    {
+        return (T)_settings[name].Value;
+    }
+
     public bool TryGetSettingsValue(string name, out object value)
     {
         value = null;

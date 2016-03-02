@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 310ccea986f69704a883c5c3b426ed73
+timeCreated: 1456956561
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BunnyRun_0
+    21300002: BunnyRun_1
+    21300004: BunnyRun_2
+    21300006: BunnyRun_3
+    21300008: BunnyRun_4
+    21300010: BunnyRun_5
+    21300012: BunnyRun_6
+    21300014: BunnyRun_7
+    21300016: BunnyRun_8
+    21300018: BunnyRun_9
+    21300020: BunnyRun_10
+    21300022: BunnyRun_11
+    21300024: BunnyRun_12
+    21300026: BunnyRun_13
+    21300028: BunnyRun_14
+    21300030: BunnyRun_15
+    21300032: BunnyRun_16
+    21300034: BunnyRun_17
+    21300036: BunnyRun_18
+    21300038: BunnyRun_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 250
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BunnyRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 149, y: -82}
+        - {x: 137, y: -39}
+        - {x: 50, y: -24}
+        - {x: 4, y: 35}
+        - {x: 70, y: 78}
+        - {x: 98, y: 143}
+        - {x: 83, y: 157}
+        - {x: 34, y: 144}
+        - {x: -24, y: 89}
+        - {x: -42, y: 63}
+        - {x: -75, y: 128}
+        - {x: -119, y: 185}
+        - {x: -149, y: 185}
+        - {x: -150, y: 184}
+        - {x: -150, y: 106}
+        - {x: -148, y: 86}
+        - {x: -150, y: 65}
+        - {x: -150, y: -42}
+        - {x: -140, y: -69}
+        - {x: -74, y: -160}
+        - {x: -82, y: -188}
+        - {x: 75, y: -188}
+        - {x: 115, y: -184}
+        - {x: 149, y: -146}
+    - name: BunnyRun_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 133, y: -42}
+        - {x: 58, y: -25}
+        - {x: 17, y: 46}
+        - {x: 63, y: 84}
+        - {x: 101, y: 160}
+        - {x: 62, y: 177}
+        - {x: -35, y: 101}
+        - {x: -51, y: 62}
+        - {x: -104, y: 185}
+        - {x: -120, y: 195}
+        - {x: -149, y: 195}
+        - {x: -151, y: 187}
+        - {x: -151, y: 106}
+        - {x: -136, y: 36}
+        - {x: -151, y: -2}
+        - {x: -151, y: -48}
+        - {x: -90, y: -80}
+        - {x: -90, y: -176}
+        - {x: -79, y: -196}
+        - {x: -64, y: -196}
+        - {x: -2, y: -161}
+        - {x: 46, y: -196}
+        - {x: 96, y: -196}
+        - {x: 127, y: -179}
+        - {x: 139, y: -159}
+        - {x: 139, y: -58}
+    - name: BunnyRun_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117, y: -69}
+        - {x: 45, y: 3}
+        - {x: 26, y: 68}
+        - {x: 93, y: 143}
+        - {x: 87, y: 171}
+        - {x: 77, y: 181}
+        - {x: 25, y: 163}
+        - {x: -66, y: 92}
+        - {x: -89, y: 162}
+        - {x: -122, y: 205}
+        - {x: -146, y: 205}
+        - {x: -153, y: 201}
+        - {x: -153, y: -13}
+        - {x: -152, y: -24}
+        - {x: -125, y: -53}
+        - {x: -99, y: -61}
+        - {x: -119, y: -194}
+        - {x: -34, y: -190}
+        - {x: 10, y: -206}
+        - {x: 92, y: -206}
+        - {x: 132, y: -164}
+        - {x: 132, y: -82}
+        - {x: 125, y: -71}
+    - name: BunnyRun_3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 9}
+        - {x: 5, y: 57}
+        - {x: 66, y: 101}
+        - {x: 100, y: 168}
+        - {x: 67, y: 193}
+        - {x: -40, y: 113}
+        - {x: -64, y: 136}
+        - {x: -114, y: 206}
+        - {x: -150, y: 206}
+        - {x: -151, y: 205}
+        - {x: -151, y: 130}
+        - {x: -134, y: 58}
+        - {x: -151, y: 23}
+        - {x: -151, y: -41}
+        - {x: -89, y: -91}
+        - {x: -108, y: -172}
+        - {x: -93, y: -177}
+        - {x: -72, y: -175}
+        - {x: -58, y: -172}
+        - {x: -21, y: -149}
+        - {x: 14, y: -202}
+        - {x: 21, y: -203}
+        - {x: 84, y: -203}
+        - {x: 124, y: -164}
+        - {x: 130, y: -136}
+        - {x: 130, y: -66}
+    - name: BunnyRun_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: -49}
+        - {x: 32, y: 15}
+        - {x: 19, y: 48}
+        - {x: 115, y: 145}
+        - {x: 82, y: 176}
+        - {x: 13, y: 146}
+        - {x: -48, y: 83}
+        - {x: -90, y: 174}
+        - {x: -116, y: 206}
+        - {x: -151, y: 206}
+        - {x: -151, y: 156}
+        - {x: -136, y: 48}
+        - {x: -151, y: 38}
+        - {x: -151, y: -53}
+        - {x: -147, y: -69}
+        - {x: -92, y: -97}
+        - {x: -128, y: -171}
+        - {x: -88, y: -166}
+        - {x: 24, y: -153}
+        - {x: -13, y: -187}
+        - {x: 87, y: -187}
+        - {x: 127, y: -168}
+        - {x: 133, y: -128}
+        - {x: 133, y: -50}
+    - name: BunnyRun_5
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 5}
+        - {x: 89, y: 103}
+        - {x: 107, y: 161}
+        - {x: 53, y: 161}
+        - {x: 11, y: 134}
+        - {x: -59, y: 84}
+        - {x: -94, y: 200}
+        - {x: -102, y: 203}
+        - {x: -136, y: 203}
+        - {x: -150, y: 176}
+        - {x: -142, y: 116}
+        - {x: -122, y: 54}
+        - {x: -152, y: 5}
+        - {x: -152, y: -36}
+        - {x: -126, y: -60}
+        - {x: -71, y: -90}
+        - {x: -110, y: -125}
+        - {x: -84, y: -160}
+        - {x: -23, y: -161}
+        - {x: 7, y: -171}
+        - {x: 113, y: -171}
+        - {x: 134, y: -84}
+        - {x: 134, y: -36}
+    - name: BunnyRun_6
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 306
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -8}
+        - {x: 45, y: 72}
+        - {x: 87, y: 103}
+        - {x: 108, y: 159}
+        - {x: 29, y: 165}
+        - {x: -61, y: 75}
+        - {x: -64, y: 120}
+        - {x: -110, y: 195}
+        - {x: -150, y: 195}
+        - {x: -150, y: 135}
+        - {x: -127, y: 44}
+        - {x: -150, y: 2}
+        - {x: -150, y: -34}
+        - {x: -132, y: -58}
+        - {x: -112, y: -66}
+        - {x: -100, y: -71}
+        - {x: -71, y: -116}
+        - {x: -124, y: -160}
+        - {x: -54, y: -180}
+        - {x: 105, y: -180}
+        - {x: 128, y: -161}
+        - {x: 136, y: -95}
+        - {x: 136, y: -41}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,56 +1,42 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 /// <summary>
 /// This class will be used to load resources into subclasses.  It allows the object pool to more easily initialize objects generically without needing prefabs for each subclassed object.
 /// </summary>
 public class ResourceController : MonoBehaviour, IController
 {
-	Sprite[] collectibleSprites; //TODO: should rename this since we just put all sprites in the same folder and same array, not just collectible sprites
-	AudioClip[] soundEffects; //just putting all sound effects in one array for now
+    public AnimationClip[] animations;
+	public AudioClip[] soundEffects; //just putting all sound effects in one array for now
 
 	// Use this for initialization
 	void Start () 
 	{
-		collectibleSprites = Resources.LoadAll<Sprite>("Sprites");
+        animations = Resources.LoadAll<AnimationClip>("Animations");
 		soundEffects = Resources.LoadAll<AudioClip>("Audio/SoundEffects");
 		//DebugAllSprites();
 	}
 
-	#region Visuals
+    #region Visuals
 
-	//returns the entire array of sprites
-	public Sprite[] GetAllSprites()
+    public AnimationClip GetAnimation(string name)
+    {
+        for (int i = 0; i < animations.Length; i++)
+        {
+            if (animations[i].name == name)
+            {
+                return animations[i];
+            }
+        }
+
+        return null;
+    }
+
+    public bool TryGetAnimation(string name, out AnimationClip value)
 	{
-		return collectibleSprites;
-	}
-
-	public bool TryGetCollectibleSprite(string name, out Sprite value)
-	{
-		bool found = false;
-		value = null;
-
-		for (int i = 0; i < collectibleSprites.Length; i++)
-		{
-			if (collectibleSprites[i].name == name)
-			{
-				value = collectibleSprites[i];
-				found = true;
-				break;
-			}
-		}
-
-		//didn't find the sprite
-		return found;
-	}
-
-	//simple method to loop through the loaded resources by name
-	private void DebugAllSprites()
-	{
-		for (int i = 0; i < collectibleSprites.Length; i++)
-		{
-			Debug.Log(collectibleSprites[i].name);
-		}
+        value = GetAnimation(name);
+        return (value != null);
 	}
 
 	#endregion Visuals

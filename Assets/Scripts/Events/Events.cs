@@ -44,6 +44,8 @@ static class Events
     {
         public static int LostLevel = 41;
         public static int WonLevel = 42;
+        public static int AnimalPassedThreshold = 43;
+        public static int TimelineComplete = 44;
     }
 
     public static class Story

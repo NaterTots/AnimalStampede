@@ -35,6 +35,12 @@ public class AnimalData
     public string name;
     public int speed;
     public int health;
+    public string hit_animation;
+    public string transform_animation;
+    public string run_animation;
+    public string happy_animation;
+    public string special_animation;
+    public string behavior;
 }
 
 [Serializable]
